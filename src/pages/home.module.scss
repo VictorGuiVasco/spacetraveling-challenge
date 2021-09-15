@@ -1,0 +1,60 @@
+.post {
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+    color: var(--gray-100);
+  }
+
+  p {
+    margin-top: 00.5rem;
+
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: var(--gray-300);
+  }
+
+  .info {
+    margin-top: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+
+    div {
+
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      span {
+        margin-left: 0.625rem;
+        text-transform: capitalize;
+
+        font-size: 0.875rem;
+        line-height: 1.0625rem;
+        color: var(--gray-400);
+      }
+
+      & + div {
+        margin-left: 1.625rem;
+      }
+    }
+  }
+}
+
+.button {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+
+  border: 0;
+  color: var(--pink-500);
+  background: transparent;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
